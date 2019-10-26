@@ -17,11 +17,14 @@ That will get the project up and running. After that, make changes, then run `np
 
 This boilerplate comes with these frameworks pre-installed and set up:
 
-* Electron
-* Webpack
-* Vue
-* Vuex
-* Bootstrap
-* FontAwesome
-* jQuery
-* Prettier
+* Main
+  * Electron
+  * Vue
+  * Vuex
+  * Webpack
+* Supporting
+  * Bootstrap
+  * FontAwesome
+  * jQuery
+  * Husky
+  * Prettier
