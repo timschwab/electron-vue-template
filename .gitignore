@@ -1,6 +1,8 @@
 # Custom
 *.DS_STORE
-dist/*
+src/client/dist/*
+
+
 
 # Logs
 logs

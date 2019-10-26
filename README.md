@@ -20,7 +20,6 @@ This boilerplate comes with these frameworks pre-installed and set up:
 * Main
   * Electron
   * Vue
-  * Vuex
   * Webpack
 * Supporting
   * Bootstrap
@@ -28,3 +27,8 @@ This boilerplate comes with these frameworks pre-installed and set up:
   * jQuery
   * Husky
   * Prettier
+
+I hope to include these eventually as well:
+
+* Vuex
+* Sass
