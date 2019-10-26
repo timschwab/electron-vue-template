@@ -1,2 +1,17 @@
-# electron-vue-template
-A template for projects built from Electron + Vue + Webpack (eventually also Vuex)
+# Overview
+A template for projects built from Electron + Vue + Webpack (eventually also Vuex). As we all know, there are plenty of these around. I made this one because 1) I did not find a good one that combined all three of these platforms (Electron, Vue, Webpack), and I needed one for CheatSheet, 2) so that I could learn to set up Webpack manually, and 3) so that I have an easy template to use for any future projects.
+
+# Included
+
+This boilerplate comes with these frameworks pre-installed and set up:
+
+* Electron
+* Webpack
+* Vue
+* Vuex
+* Bootstrap
+* jQuery
+
+# Use
+
+This project is using the MIT license, so feel free to use it for any project you want to, in pretty much any way.
