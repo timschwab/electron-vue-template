@@ -6,7 +6,8 @@
 				<p>
 					<label>Text:</label>
 					<input type="text" v-model="text">
-					<button class="btn btn-primary" v-on:click="submit">Send Message</button></p>
+					<button class="btn btn-primary" v-on:click="submit">Send Message</button>
+				</p>
 				<p><span>{{ text }}</span></p>
 				<p>Received: {{ messageResult }}</p>
 			</div>
