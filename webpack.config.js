@@ -3,6 +3,7 @@ const path = require('path')
 
 module.exports = {
 	target: 'electron-renderer',
+	mode: 'production',
 	entry: [
 		'./src/client/app.js'
 	],
