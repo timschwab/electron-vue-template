@@ -1,58 +1,58 @@
 {
-  "name": "electron-vue-template",
-  "version": "0.0.1",
-  "description": "A simple template for projects built from Electron + Vue + Webpack",
-  "main": "src/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode development",
-    "start": "electron ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/timschwab/electron-vue-template.git"
-  },
-  "keywords": [
-    "webpack",
-    "electron",
-    "vue",
-    "vuex",
-    "boilerplate",
-    "template"
-  ],
-  "author": "Tim Schwab",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/timschwab/electron-vue-template/issues"
-  },
-  "homepage": "https://github.com/timschwab/electron-vue-template#readme",
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.16.0",
-    "vue": "^2.6.10"
-  },
-  "devDependencies": {
-    "css-loader": "^3.2.0",
-    "electron": "^7.0.0",
-    "husky": "^3.0.9",
-    "lint-staged": "^9.4.2",
-    "prettier": "^1.18.2",
-    "vue-loader": "^15.7.1",
-    "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.10",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "src/**/*.{js, json, css, html, vue}": [
-      "prettier --write",
-      "git add"
-    ]
-  }
+	"name": "electron-vue-template",
+	"version": "0.0.1",
+	"description": "A simple template for projects built from Electron + Vue + Webpack",
+	"main": "src/main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack --mode development",
+		"start": "electron ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/timschwab/electron-vue-template.git"
+	},
+	"keywords": [
+		"webpack",
+		"electron",
+		"vue",
+		"vuex",
+		"boilerplate",
+		"template"
+	],
+	"author": "Tim Schwab",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/timschwab/electron-vue-template/issues"
+	},
+	"homepage": "https://github.com/timschwab/electron-vue-template",
+	"dependencies": {
+		"bootstrap": "^4.3.1",
+		"jquery": "^3.4.1",
+		"popper.js": "^1.16.0",
+		"vue": "^2.6.10"
+	},
+	"devDependencies": {
+		"css-loader": "^3.2.0",
+		"electron": "^7.0.0",
+		"husky": "^3.0.9",
+		"lint-staged": "^9.4.2",
+		"prettier": "^1.18.2",
+		"vue-loader": "^15.7.1",
+		"vue-style-loader": "^4.1.2",
+		"vue-template-compiler": "^2.6.10",
+		"webpack": "^4.41.2",
+		"webpack-cli": "^3.3.9"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"src/**/*.{js, json, css, html, vue}": [
+			"prettier --write",
+			"git add"
+		]
+	}
 }
