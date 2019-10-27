@@ -1,6 +1,9 @@
 // Library includes
 const {app, BrowserWindow} = require('electron')
 
+// Custom infrastructure
+const api = require('./server/app')
+
 function main() {
 	// Create main window
 	let win = new BrowserWindow({
@@ -11,6 +14,9 @@ function main() {
 		}
 	})
 	win.loadFile('src/client/index.html')
+
+	// Prepare example api
+	api.init()
 }
 
 // Start app
