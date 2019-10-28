@@ -1,6 +1,6 @@
 {
 	"name": "electron-vue-template",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "A simple template for projects built from Electron + Vue + Webpack",
 	"main": "src/main.js",
 	"scripts": {
